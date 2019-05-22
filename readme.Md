@@ -13,3 +13,4 @@ information from Office Excel.
 这里简单说明一下对于原生word 还是尽量使用win32com 库对office 的事务进行操作，特别是
 所谓的python-wordx 操作和替换功能类似于玩具，对于复杂格式和工业级应用上难以满足。
 
+目前该版本有一个highlight 函数无法做高亮处理。
