@@ -10,3 +10,6 @@ information from Office Excel.
 
 从excel 中读取原内容和要替换的内容，然后再制定data 目录下寻找word 文档进行批量替换。
 
+这里简单说明一下对于原生word 还是尽量使用win32com 库对office 的事务进行操作，特别是
+所谓的python-wordx 操作和替换功能类似于玩具，对于复杂格式和工业级应用上难以满足。
+
